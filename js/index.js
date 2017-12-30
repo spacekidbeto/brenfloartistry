@@ -1,7 +1,6 @@
 ////////////////////////////////////
 // NAVIGATION SHOW/HIDE
 
-
 $(".nav-toggle").click( function() {
   $("nav ul").slideToggle("medium");
 });
