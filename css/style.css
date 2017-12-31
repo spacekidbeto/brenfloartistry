@@ -339,7 +339,9 @@ Footer
 Media Queries
 ======================== */
 
-@media only screen (min-width: 768px) {
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
   
   nav .nav-toggle {
     display: none;
