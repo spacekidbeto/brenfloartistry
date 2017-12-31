@@ -3,6 +3,11 @@
 /* ========================
 Utilities
 ======================== */
+@font-face {
+font-family: "brenfont";
+src: url("bf.ttf");
+}
+
 .brand{
   width: 10%;
 }
@@ -45,6 +50,7 @@ body {
 
 h1, h2, h3, h4, h5, h6, ul, ol, p {
   color: black;
+  font-family: "brenfont";
   margin-top: 0;
 }
 
@@ -183,14 +189,6 @@ Sections
   padding-bottom: 25vh; /* No JS fallback*/
 }
 
-.profile-image {
-  border-radius: 50%;
-  display: block;
-  max-width: 200px;
-  margin: 0 auto 1em;
-  width: 100%;
-}
-
 .splash h1 {
   font-size: 3em;
   margin-bottom: .15em;
@@ -235,6 +233,8 @@ Sections
 .intro {
   background-color: #fdd9d2;
   color: #fff;
+  background-image: url("../img/bg.jpg");
+  -webkit-animation: slide 20s linear infinite;
 }
 
 .intro a, .intro a:hover, .intro a:focus, .intro a:active, .intro a:visited {
@@ -254,7 +254,12 @@ Sections
 
 .portfolio {
   background-color: #f8e6e4;
-  color: #fff;
+  color: #fff
+}
+
+@-webkit-keyframes slide {
+    from { background-position: 0 0; }
+    to { background-position: -400px 0; }
 }
 
 .gallery .gallery-image {
@@ -272,7 +277,7 @@ Sections
 }
 
 .contact form {
-  background-color: #f8f0e4;
+  background-color: rgb(215,29,37);
   border-radius: 4px;
   border-top: 8px solid #;
   -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.15);
@@ -294,7 +299,7 @@ Sections
 }
 
 .contact form input[type="submit"] {
-  background-color: rgb(204,32,41);
+  background-color: black;
   border-radius: 0;
   color: #fff;
   text-decoration: none;
