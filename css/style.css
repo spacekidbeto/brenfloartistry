@@ -339,7 +339,7 @@ Footer
 Media Queries
 ======================== */
 
-@media (min-width: 1068px) {
+@media only screen (min-width: 768px) {
   
   nav .nav-toggle {
     display: none;
