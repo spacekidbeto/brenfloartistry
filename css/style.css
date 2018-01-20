@@ -52,6 +52,7 @@ h1, h2, h3, h4, h5, h6, ul, ol, p {
   color: black;
   font-family: "brenfont";
   margin-top: 0;
+  text-align: center;
 }
 
 h1 {
@@ -177,11 +178,11 @@ Sections
 
 .splash {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(44, 62, 80, 0.65)), to(rgba(52, 152, 219, 0.65))),
-				url("https://images.unsplash.com/photo-1452796907770-ad6cd374b12d?crop=entropy&fit=crop&fm=jpg&h=1000&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1925") no-repeat fixed center;
+        url("https://images.unsplash.com/photo-1452796907770-ad6cd374b12d?crop=entropy&fit=crop&fm=jpg&h=1000&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1925") no-repeat fixed center;
   background: linear-gradient(rgba(44, 62, 80, 0.65), rgba(52, 152, 219, 0.65)),
-				url("https://images.unsplash.com/photo-1452796907770-ad6cd374b12d?crop=entropy&fit=crop&fm=jpg&h=1000&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1925") no-repeat fixed center;
-	background-size: cover;
-	color: #fff;
+        url("https://images.unsplash.com/photo-1452796907770-ad6cd374b12d?crop=entropy&fit=crop&fm=jpg&h=1000&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1925") no-repeat fixed center;
+  background-size: cover;
+  color: #fff;
 }
 
 .splash .container {
