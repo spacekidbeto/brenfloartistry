@@ -70,11 +70,11 @@
 
 .prev:hover,
 .next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: #f73d77;
 }
 
 .text {
-  color: #f2f2f2;
+  color: #f73d77;
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
@@ -84,7 +84,7 @@
 }
 
 .numbertext {
-  color: #f2f2f2;
+  color: #f73d77;
   font-size: 12px;
   padding: 8px 12px;
   position: absolute;
@@ -96,7 +96,7 @@
   height: 13px;
   width: 13px;
   margin: 0 2px;
-  background-color: #bbb;
+  background-color: #f73d77;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
@@ -104,6 +104,6 @@
 
 .active,
 .dot:hover {
-  background-color: #717171;
+  background-color: #f73d77;
 }
 

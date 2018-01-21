@@ -39,7 +39,7 @@ Global
 ======================== */
 
 body {
-  color: #444;
+  color: white;
   font-family: Roboto, sans-serif;
   font-size: 18px;
   font-weight: 300;
@@ -49,7 +49,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6, ul, ol, p {
-  color: black;
+  color: #f73d77;
   font-family: "brenfont";
   margin-top: 0;
   text-align: center;
@@ -232,10 +232,13 @@ Sections
 }
 
 .intro {
-  background-color: #fdd9d2;
+  background-color: white;
   color: #fff;
-  background-image: url("../img/bg.jpg");
-  -webkit-animation: slide 20s linear infinite;
+  background-image: url("https://thebeautytalkdotcodotuk.files.wordpress.com/2017/01/cropped-screen-shot-2017-01-01-at-10-41-45-pm.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  /*-webkit-animation: slide 200s linear infinite;*/
 }
 
 .intro a, .intro a:hover, .intro a:focus, .intro a:active, .intro a:visited {
@@ -278,11 +281,7 @@ Sections
 }
 
 .contact form {
-  background-color: rgb(215,29,37);
-  border-radius: 4px;
-  border-top: 8px solid #;
-  -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.15);
-          box-shadow: 0 1px 2px rgba(0,0,0,.15);
+  background-color: rgb(255,255,255);
   padding: 1em;
 }
 
@@ -293,6 +292,7 @@ Sections
   margin-bottom: 1em;
   padding: 1em;
   width: 100%;
+  background-color: #fdd9d2; 
 }
 
 .contact form textarea {
